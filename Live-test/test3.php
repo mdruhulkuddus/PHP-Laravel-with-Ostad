@@ -4,10 +4,12 @@ function hasPairWithSum($array, $sum) {
     $set = array();
 
     foreach ($array as $num) {
+       
         if (in_array($sum - $num, $set)) {
             return true;
         }
         $set[] = $num;
+        //foreach ($set as $n) { echo $n . " ";} echo "\n";
     }
     return false;
 }
@@ -20,5 +22,6 @@ if (hasPairWithSum($array, $sum)) {
 } else {
     echo "False: Pair with sum " . $sum . " does not exists.";
 }
+
 
 ?>

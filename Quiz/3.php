@@ -1,5 +1,5 @@
 <?php
-$x = 3; $y = 4;
+$x = 4; $y = 3;
 $z = $x + $y / $y + $x;
 
 echo $z;
@@ -11,5 +11,5 @@ do{
 }
 while($i < count($n));
 
-fun_n
+
 ?>
