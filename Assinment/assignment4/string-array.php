@@ -46,6 +46,7 @@ echo isLetterAndWhiteSpace($str1); // false
 echo "\n";
 echo isLetterAndWhiteSpace($str2);  // true
 echo "\n";
+
 /* 
 5.Write a PHP function to find the second largest number in an array of numbers. */
 
@@ -54,4 +55,4 @@ function secondLargestNumber($numbers){
     return $numbers[1];
 }
 $numbers = [5, 4, 8, 9, 10, 15];
-echo "Second largest number is : ". secondLargestNumber($numbers);
+echo "Second largest number is : ". secondLargestNumber($numbers); // 10
