@@ -23,33 +23,33 @@ session_start();
         }
         ?>
 
-       <div class="row">
-       <h3 class="mt-5 text-center">Registration Form</h3>
-        <form method="POST" action="save-registration-info.php" class="">
-            <div class="form-group">
-                <label for="first_name">First Name:</label>
-                <input type="text" class="form-control" name="first_name" required>
-            </div>
-            <div class="form-group">
-                <label for="last_name">Last Name:</label>
-                <input type="text" class="form-control" name="last_name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address:</label>
-                <input type="email" class="form-control" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" class="form-control" name="password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" class="form-control" name="confirm_password" required>
-            </div>
-            <button type="submit" class="btn btn-primary mt-2">Register</button>
-            <span>Already regesterd? <a href="login.php">Login Now</a></span>
-        </form>
-       </div>
+        <div class="row mt-5" style="width:50%; margin:auto; border: 1px solid #ccc; padding:5px">
+            <h3 class="mt-5 text-center">Registration Form</h3>
+            <form method="POST" action="save-registration-info.php" class="">
+                <div class="form-group">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" class="form-control" name="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" class="form-control" name="last_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" class="form-control" name="confirm_password" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2 mb-3">Register</button>
+                <span>Already regesterd? <a href="login.php">Login Now</a></span>
+            </form>
+        </div>
     </div>
 
 
