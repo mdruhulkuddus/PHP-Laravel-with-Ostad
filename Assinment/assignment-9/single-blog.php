@@ -77,7 +77,7 @@
                         <div class="col-md-12 mt-2">
                             <div class="card p-2">
                                 <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
+                                    <h2 class="card-title"><a href="single-blog.php">We're living some</a></h2>
                                     <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@
                         <div class="col-md-12 mt-2">
                             <div class="card p-2">
                                 <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
+                                    <h2 class="card-title"><a href="single-blog.php">We're living some</a></h2>
                                     <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
                                 </div>
                             </div>

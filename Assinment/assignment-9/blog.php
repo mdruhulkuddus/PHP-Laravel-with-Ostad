@@ -63,9 +63,9 @@
                                 </div>
                                 <div class="col-md-7 mt-2">
                                     <div class="card-block">
-                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
+                                        <h2 class="card-title"><a href="single-blog.php">We're living some strange times</a></h2>
                                         <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                            <span style="display: inline;"> <a href="" class="btn read-more-blog">Read More..</a></span>
+                                            <span style="display: inline;"> <a href="single-blog.php" class="btn read-more-blog">Read More..</a></span>
                                         </h4>
 
                                         <div class="wrapfooter">
@@ -91,9 +91,9 @@
                                 </div>
                                 <div class="col-md-7 mt-2">
                                     <div class="card-block">
-                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
+                                        <h2 class="card-title"><a href="single-blog.php">We're living some strange times</a></h2>
                                         <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                            <span style="display: inline;"> <a href="" class="btn read-more-blog">Read More..</a></span>
+                                            <span style="display: inline;"> <a href="single-blog.php" class="btn read-more-blog">Read More..</a></span>
                                         </h4>
 
                                         <div class="wrapfooter">
@@ -144,7 +144,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
+                            <a href="single-blog.php" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -167,7 +167,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
+                            <a href="single-blog.php" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -190,7 +190,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
+                            <a href="single-blog.php" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
