@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.php">Blog</a>
@@ -45,10 +45,94 @@
 
 
     <div class="container">
+
+        <div class="row mt-5">
+            <div class="col-md-8 mt-5">
+                <section class="latest-posts">
+                    <div class="section-title">
+                        <h2><span>Latest</span></h2>
+                    </div>
+                    <div class="card-columns listfeaturedtag mt-2">
+                        <!-- begin post -->
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-5 wrapthumbnail">
+                                    <a href="">
+                                        <img class="card-img" src="assets/image/2.jpg" alt="Bologna" style="height:100%">
+                                    </a>
+                                </div>
+                                <div class="col-md-7 mt-2">
+                                    <div class="card-block">
+                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
+                                        <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                            <span style="display: inline;"> <a href="" class="btn read-more-blog">Read More..</a></span>
+                                        </h4>
+
+                                        <div class="wrapfooter">
+                                            <span class="author-meta">
+                                                <span class="post-name"><a href=""><i class="far fa-user text-primary"></i> Author </a></span><br />
+                                                <span class="post-date"><i class="far fa-clock text-info"></i> Oct 20, 12:45PM</span><span class="dot"></span><span class="post-read">&nbsp; ~ 6 min read</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-columns listfeaturedtag mt-2">
+                        <!-- begin post -->
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-5 wrapthumbnail">
+                                    <a href="post.html">
+                                        <img class="card-img" src="assets/image/2.jpg" alt="Bologna" style="height:100%">
+                                    </a>
+                                </div>
+                                <div class="col-md-7 mt-2">
+                                    <div class="card-block">
+                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
+                                        <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                            <span style="display: inline;"> <a href="" class="btn read-more-blog">Read More..</a></span>
+                                        </h4>
+
+                                        <div class="wrapfooter">
+                                            <span class="author-meta">
+                                                <span class="post-name"><a href=""><i class="far fa-user text-primary"></i> Author </a></span><br />
+                                                <span class="post-date"><i class="far fa-clock text-info"></i> Oct 20, 12:45PM</span><span class="dot"></span><span class="post-read">&nbsp; ~ 6 min read</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="d-flex align-items-center">
+                    <input type="text" class="form-control mr-2" placeholder="Search blog" style="border-radius: 0px;">
+                    <button class="btn btn-primary " style="border-radius: 0px;"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="mt-4">
+                    <h5>Categories</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">An active item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
         <section class="featured-posts">
-            <div class="row mt-5">
-                <div class="section-title mt-5">
-                    <h2><span>Featured</span></h2>
+            <div class="row mt-2">
+                <div class="section-title">
+                    <h2><span>All Blog</span></h2>
                 </div>
                 <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2">
                     <div class="card">
@@ -60,7 +144,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="single-blog.php" class="btn btn-info">Read More</a>
+                            <a href="#" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -83,7 +167,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="single-blog.php" class="btn btn-info">Read More</a>
+                            <a href="#" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -106,7 +190,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="single-blog.php" class="btn btn-info">Read More</a>
+                            <a href="#" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -129,7 +213,7 @@
                                 <i class="far fa-clock text-info"></i> Oct 20, 12:45PM
                             </small>
                             <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                            <a href="single-blog.php" class="btn btn-info">Read More</a>
+                            <a href="#" class="btn btn-info">Read More</a>
                         </div>
                         <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                             <div class="views">
@@ -190,113 +274,6 @@
                 </div>
             </div>
         </section>
-
-        <div class="row mt-3">
-            <div class="col-md-8">
-                <section class="latest-posts">
-                    <div class="section-title">
-                        <h2><span>Latest</span></h2>
-                    </div>
-                    <div class="card-columns listfeaturedtag mt-2">
-                        <!-- begin post -->
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-md-5 wrapthumbnail">
-                                    <a href="post.html">
-                                        <img class="card-img" src="assets/image/2.jpg" alt="Bologna" style="height:100%">
-                                    </a>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-block">
-                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
-                                        <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                        <div class="wrapfooter">
-                                            <span class="author-meta">
-                                                <span class="post-name"><a href=""><i class="far fa-user text-primary"></i> Author </a></span><br />
-                                                <span class="post-date"><i class="far fa-clock text-info"></i> Oct 20, 12:45PM</span><span class="dot"></span><span class="post-read">&nbsp; ~ 6 min read</span>
-                                            </span>
-                                            <span class="post-read-more"><a href="" title="Read Story"></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-columns listfeaturedtag mt-2">
-                        <!-- begin post -->
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-md-5 wrapthumbnail">
-                                    <a href="post.html">
-                                        <img class="card-img" src="assets/image/2.jpg" alt="Bologna" style="height:100%">
-                                    </a>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-block">
-                                        <h2 class="card-title"><a href="">We're living some strange times</a></h2>
-                                        <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                        <div class="wrapfooter">
-                                            <span class="author-meta">
-                                                <span class="post-name"><a href=""><i class="far fa-user text-primary"></i> Author </a></span><br />
-                                                <span class="post-date"><i class="far fa-clock text-info"></i> Oct 20, 12:45PM</span><span class="dot"></span><span class="post-read">&nbsp; ~ 6 min read</span>
-                                            </span>
-                                            <span class="post-read-more"><a href="" title="Read Story"></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-
-
-
-            </div>
-            <div class="col-md-4">
-                <section class="popular-posts">
-
-                    <div class="section-title">
-                        <h2><span>Popular</span></h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 mt-2">
-                            <div class="card p-2">
-                                <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
-                                    <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <div class="card p-2">
-                                <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
-                                    <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <div class="card p-2">
-                                <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
-                                    <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <div class="card p-2">
-                                <div class="card-block">
-                                    <h2 class="card-title"><a href="">We're living some</a></h2>
-                                    <h4 class="card-text" style="font-size: 15px;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-            </div>
-        </div>
 
         <!-- footer -->
         <footer class="text-center text-white" style="background-color: #f1f1f1;">
