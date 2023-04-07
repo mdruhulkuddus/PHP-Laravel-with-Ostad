@@ -15,7 +15,7 @@
     <!-- Begin Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/image/blogger-logo.jpg" alt="logo" style="height:50px; width:100px"></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/image/blogger-logo.jpg" alt="logo" style="height:50px; width:100px"></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>

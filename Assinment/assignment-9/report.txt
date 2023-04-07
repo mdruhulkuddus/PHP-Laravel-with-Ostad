@@ -1,0 +1,5 @@
+index.php - where show all blog,
+blog.php - where shown all latest and featured blogs have side bar for category and have search box to serach blog
+sigle-blog- where have blog details, when user click read more then show that blog widely.
+contact.php- where user can send message by name, email, and message.
+procees.php- where write code for dynamic contact page.
