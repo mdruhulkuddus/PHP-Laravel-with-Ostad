@@ -1,0 +1,22 @@
+This website is a static website for a small business using HTML and Bootstrap, css.
+
+Home page: This page included all features like: slider, an about section, a services section, a portfolio section, a blog section, and a contact page.
+
+Slider: Here designed carousel slider.
+
+About: when click on about of menu then it is scroll on about section; 
+        -here included overview of business
+
+Service: when click on service of menu then it is scroll on service section; 
+        -here included main services features of business
+
+Blog: when click on blog of menu then it is scroll on blog section; 
+        -here included blog card and read more features.
+
+Portfolio: when click on portfolio of menu then it is scroll on portfolio section; 
+        -here included portfolio features.
+
+Contact: when click on contact of menu then it is scroll on contact section; 
+        -here included contact features like name, email, number, image and send button.
+
+Exxtra: map and footer added                
