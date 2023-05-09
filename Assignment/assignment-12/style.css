@@ -44,7 +44,7 @@ body {
   }
   
   button {
-    background-color: #c0392b;
+    background-color: #59b5f1;
     color: #fff;
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -60,6 +60,7 @@ body {
   #result {
     font-size: 2rem;
     color: #555;
-    height: 25px;
+    height: 35px;
+    display: block;
   }
   
