@@ -12,17 +12,16 @@ use App\Http\Requests\UpdatepostsRequest;
 class PostController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display the resource.
      */
     public function index()
     {
-        //return StorepostsRequest::collection(Product::all());
         $products = Product::all();
         return view('page.index', compact('products'));
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show a new resource.
      */
     public function create()
     {
@@ -35,13 +34,11 @@ class PostController extends Controller
     public function store(StorepostsRequest $request)
     {
         $product = Product::create($request->validated());
-        // return ProductResource::make($product);
-
         return redirect()->route('page.index')->with('success', 'Product created successfully');
     }
 
     /**
-     * Display the specified resource.
+     * Display resource.
      */
     public function show($id)
     {
@@ -51,7 +48,7 @@ class PostController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the resource.
      */
     public function edit($id)
     {
@@ -61,7 +58,7 @@ class PostController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the resource in storage.
      */
     public function update(UpdatepostsRequest $request, $id)
     {
@@ -73,7 +70,7 @@ class PostController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the resource from storage.
      */
     public function destroy($id)
     {
