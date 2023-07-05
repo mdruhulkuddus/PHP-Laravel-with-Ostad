@@ -12,6 +12,7 @@ class Post extends Model {
     public function category() {
         return $this->belongsTo( Category::class );
     }
+    
     static function categoryWisePostCount( $categoryId ) {
         return self::where( 'category_id', $categoryId )->count();
     }

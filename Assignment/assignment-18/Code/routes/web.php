@@ -5,10 +5,13 @@ use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get( '/categoryPostCount', function () {
     $categories = Category::all();
     return view( 'category_wise_post_count', compact( 'categories' ) );
 } );
+
+
 Route::delete( '/posts/{id}/delete', [AssignmentController::class, 'softDelete'] );
 Route::get( '/softDeletedPosts', [AssignmentController::class, 'softDeletedPosts'] );
 Route::get( '/allPostWithTheirCategory', [AssignmentController::class, 'allPostWithTheirCategory'] );
