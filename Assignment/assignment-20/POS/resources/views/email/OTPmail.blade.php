@@ -60,7 +60,7 @@
     </div>
     <div class="otp-section">
         <h2 style="color: #007bff;">One-Time Password (OTP)</h2>
-        <p class="instruction">Use the following OTP to verify your account:</p>
+        <p class="instruction">Use the following OTP to verify your account, This OTP valid until 10 Minutes.</p>
         <div class="otp-code">{{ $otp }}</div>
     </div>
     <div class="footer">
