@@ -1,5 +1,5 @@
-@extends('layout.sidenav-layout')
+@extends('layout.dashboard-layout')
 @section('content')
-    @include('components.dashboard.summary')
+    @include('components.dashboard.welcome')
 @endsection
 

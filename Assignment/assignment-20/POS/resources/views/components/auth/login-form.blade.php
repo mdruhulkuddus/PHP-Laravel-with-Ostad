@@ -27,6 +27,31 @@
 
 <script>
 
+   async function SubmitLogin(){
+        let email = document.getElementById('email').value;
+        let password = document.getElementById('password').value;
+        if(email.length == 0){
+            successToast("Email is required");
+        }
+        else if(password.length == 0)
+        {
+            successToast("Password is required");
+        }
+        else{
+            showLoader();
+            let response = await axios.post("/user-login",{
+               email:email,
+               password:password
+            });
+            if(response.status === 200 && response.data['status'] === 'success'){
+            window.location.href="/dashboard";
+            }
+            else{
+                errorToast(response.data['message']);
+            }
+        }
+    }
+
   // async function SubmitLogin() {
   //           let email=document.getElementById('email').value;
   //           let password=document.getElementById('password').value;

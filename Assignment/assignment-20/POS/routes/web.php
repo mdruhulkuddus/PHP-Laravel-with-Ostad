@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\TokenVerifyMiddleware;
-
+use App\Http\Controllers\DashboardController;
 
 Route::post('/user-registration', [UserController::class, 'UserRegistration']);
 Route::post('/user-login', [UserController::class, 'UserLogin']);
