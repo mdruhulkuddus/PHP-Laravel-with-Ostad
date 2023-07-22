@@ -1,4 +1,4 @@
-## EbookShare - Ebook Ecommerce System
+## POS Application
 <blockquote><p>This is a simple web-based open source POS (point of sale) system.</p></blockquote>
 
 ## Features of EbookShare
