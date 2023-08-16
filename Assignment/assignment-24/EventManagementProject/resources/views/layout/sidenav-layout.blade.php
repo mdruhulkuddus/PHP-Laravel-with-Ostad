@@ -41,7 +41,7 @@
             <span class="icon-nav m-0 h5" onclick="MenuBarClickHandler()">
                 <img class="nav-logo-sm mx-2"  src="{{asset('images/menu.svg')}}" alt="logo"/>
             </span>
-            <img class="nav-logo  mx-2"  src="{{asset('images/logo.png')}}" alt="logo"/>
+            <img class="nav-logo  mx-2"  src="{{asset('images/logo3.png')}}" alt="logo"/>
         </a>
 
         <div class="float-right h-auto d-flex">
@@ -71,23 +71,13 @@
         <i class="bi bi-graph-up"></i>
         <span class="side-bar-item-caption">Dashboard</span>
     </a>
-
-{{--    <a href="{{url("/customerPage")}}" class="side-bar-item">--}}
-{{--        <i class="bi bi-people"></i>--}}
-{{--        <span class="side-bar-item-caption">Customer</span>--}}
-{{--    </a>--}}
-
     <a href="{{url("/categoryPage")}}" class="side-bar-item">
         <i class="bi bi-list-nested"></i>
         <span class="side-bar-item-caption">Category</span>
     </a>
-    <a href="{{url("/incomePage")}}" class="side-bar-item">
+    <a href="{{url("/eventPage")}}" class="side-bar-item">
         <i class="bi bi-list-nested"></i>
-        <span class="side-bar-item-caption">Income</span>
-    </a>
-    <a href="{{url("/expensePage")}}" class="side-bar-item">
-        <i class="bi bi-list-nested"></i>
-        <span class="side-bar-item-caption">Expense</span>
+        <span class="side-bar-item-caption">Event</span>
     </a>
 </div>
 
