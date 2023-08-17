@@ -16,21 +16,20 @@
     <link href="{{ asset('frontendAssets/assets/css/mediumish.css')}}" rel="stylesheet">
 </head>
 <body>
-
 <!-- Begin Nav
 ================================================== -->
-@include('frontend.components.menu')
+@include('frontend.layout.header')
 <!-- End Nav
 ================================================== -->
 
 <!-- Begin Site Title
 ================================================== -->
 <div class="container">
-  @yield('content')
+    @yield('content')
 
     <!-- Begin Footer
     ================================================== -->
-    @include('frontend.components.footer')
+    @include('frontend.layout.footer')
     <!-- End Footer
     ================================================== -->
 
@@ -41,7 +40,9 @@
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ asset('frontendAssets/assets/js/jquery.min.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
 <script src="{{ asset('frontendAssets/assets/js/bootstrap.min.js')}}"></script>
 <script src="{{ asset('frontendAssets/assets/js/ie10-viewport-bug-workaround.js')}}"></script>
 </body>

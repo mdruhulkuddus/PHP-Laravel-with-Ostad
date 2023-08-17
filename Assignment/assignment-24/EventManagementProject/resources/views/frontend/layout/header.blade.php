@@ -4,21 +4,27 @@
     </button>
     <div class="container">
         <!-- Begin Logo -->
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/img/logo.png" alt="logo">
+        <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('frontendAssets/assets/img/logo-1.png') }}" alt="logo">
         </a>
         <!-- End Logo -->
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <!-- Begin Menu -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Stories <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="post.html">Post</a>
+                    <a class="nav-link" href="">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="author.html">Author</a>
+                    <a class="nav-link" href="">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
                 </li>
             </ul>
             <!-- End Menu -->

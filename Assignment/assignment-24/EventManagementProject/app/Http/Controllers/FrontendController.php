@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Event;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
     function HomePage(){
-        return view('frontend.master');
+        $events = Event::all();
+        return view('frontend.home', compact('events'));
     }
 }
