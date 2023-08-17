@@ -1,5 +1,5 @@
 ## Inventory Management System (POS Application)
-<blockquote><p>This is a simple web-based open-source POS (point of sale) system of Inventory Management.</p></blockquote>
+<blockquote><p>This is a simple web-based open-source Event Management System.</p></blockquote>
 
 ## Features of Inventory Management System
 <ul>
@@ -8,6 +8,8 @@
     <li>User Profile</li>
     <li>Password Reset</li>
     <li>Dashboard</li>
+    <li>Home Page</li>
+    <li>Events</li>
     <li>User Profile</li>
 </ul>
 
@@ -46,36 +48,13 @@
     </thead>
 </table>
 
-## Password Reset Pages
-<table>
-    <thead>
-        <tr>
-            <th>
-                <p>Send OTP Email</p>
-                <img src="screenshots/sendOTPform.png" alt="sendOTPform-page ss">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <p>Receive OTP in Email</p>
-                <img src="screenshots/sendOTP.png" alt="sendOTPform-page ss">
-            </th>
-        </tr>
-        <tr>
-            <th>
-                <p>Submit OTP Code</p>
-                <img src="screenshots/submitOTP.png" alt="submitOTP-page ss">
-            </th>
-        </tr>
-    </thead>
-</table>
 
 ## Dashboard Page
 <table>
     <thead>
         <tr>
             <th>
-                <img src="screenshots/dashboard.png" alt="dashboard-page ss">
+                <img src="screenshots/das.jpg" alt="dashboard-page ss">
             </th>
         </tr>
     </thead>
