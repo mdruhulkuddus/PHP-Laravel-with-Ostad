@@ -13,13 +13,15 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
-            $table->string('category', '100');
+            $table->unsignedBigInteger('category_id');
             $table->string('title', '200');
             $table->text('description');
             $table->date('date');
             $table->time('time');
             $table->string('location');
             $table->unsignedBigInteger('user_id');
+            $table->foreign('category_id')->references('id')->on('categories')
+                ->cascadeOnUpdate()->restrictOnDelete();
             $table->foreign('user_id')->references('id')->on('users')
                 ->cascadeOnUpdate()->restrictOnDelete();
             $table->timestamp('created_at')->useCurrent();

@@ -6,6 +6,7 @@ use App\Http\Middleware\TokenVerifyMiddleware;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\FrontendController;
 
 // login & registration routes
 Route::post('/user-registration', [UserController::class, 'UserRegistration']);
@@ -34,9 +35,17 @@ Route::get('/userProfile',[UserController::class,'ProfilePage'])->middleware([To
 Route::get('/categoryPage',[CategoryController::class,'CategoryPage'])->middleware([TokenVerifyMiddleware::class]);
 Route::get('/eventPage',[EventController::class,'EventPage'])->middleware([TokenVerifyMiddleware::class]);
 
-// Category API
+// Event Category API
 Route::post('/create-category',[CategoryController::class,'CategoryCreate'])->middleware([TokenVerifyMiddleware::class]);
 Route::get('/list-category',[CategoryController::class,'CategoryList'])->middleware([TokenVerifyMiddleware::class]);
 Route::post('/delete-category',[CategoryController::class,'CategoryDelete'])->middleware([TokenVerifyMiddleware::class]);
-Route::post('/update-category',[CategoryController::class,'UpdateCategory'])->middleware([TokenVerifyMiddleware::class]);
+Route::post('/update-category',[CategoryController::class,'CategoryUpdate'])->middleware([TokenVerifyMiddleware::class]);
 
+// Event API
+Route::post('/create-event',[EventController::class,'EventCreate'])->middleware([TokenVerifyMiddleware::class]);
+Route::get('/list-event',[EventController::class,'EventList'])->middleware([TokenVerifyMiddleware::class]);
+Route::post('/delete-event',[EventController::class,'EventDelete'])->middleware([TokenVerifyMiddleware::class]);
+Route::post('/update-event',[EventController::class,'EventUpdate'])->middleware([TokenVerifyMiddleware::class]);
+
+// Frontend Routes
+Route::get('/home', [FrontendController::class, 'HomePage']);

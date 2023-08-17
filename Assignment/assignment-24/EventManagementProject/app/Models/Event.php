@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
 {
-    use HasFactory;
+    protected $fillable = ['category_id', 'title', 'description', 'date', 'time', 'location', 'user_id'];
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
 }
