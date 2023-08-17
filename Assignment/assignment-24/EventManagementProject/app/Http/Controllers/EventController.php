@@ -26,4 +26,15 @@ class EventController extends Controller
         ]);
     }
 
+    function EventList(Request $request){
+        $user_id = $request->header('id');
+        return Event::where('user_id', $user_id)->get();
+    }
+
+    function EventDelete(Request $request){
+       $event_id = $request->input('id');
+        $user_id = $request->header('id');
+        return Event::where('id', $event_id)->where('user_id', $user_id)->delete();
+    }
+
 }

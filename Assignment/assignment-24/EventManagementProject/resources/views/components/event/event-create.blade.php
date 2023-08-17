@@ -92,7 +92,7 @@
                 successToast("Request Completed");
                 document.getElementById('save-form').reset();
                 // list refresh
-               // await getList();
+               await getList();
             } else {
                 errorToast("Request Fail !")
             }

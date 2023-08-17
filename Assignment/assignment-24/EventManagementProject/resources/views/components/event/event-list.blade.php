@@ -24,6 +24,7 @@
                             <th>Date</th>
                             <th>Time</th>
                             <th>Location</th>
+                            <th>Action</th>
                         </tr>
                         </thead>
                         <tbody id="tableList">
@@ -37,57 +38,59 @@
 </div>
 
 <script>
-    // getList();
-    //
-    // async function getList() {
-    //     showLoader();
-    //     let res = await axios.get('/list-income');
-    //     hideLoader();
-    //
-    //     let tableData = $('#tableData');
-    //     let tableList = $('#tableList');
-    //
-    //     tableData.DataTable().destroy();
-    //     tableList.empty();
-    //
-    //     res.data.forEach(function (item, index) {
-    //         let row = `<tr>
-    //                          <td>${index + 1}</td>
-    //                          <td>${item['income_category']}</td>
-    //                          <td>${item['date']}</td>
-    //                          <td>${item['amount']}</td>
-    //                          <td>${item['description']}</td>
-    //                          <td>
-    //                             <button data-id="${item['id']}" class="btn editBtn btn-sm btn-outline-primary"> Edit </button>
-    //                             <button data-id="${item['id']}" class="btn deleteBtn btn-sm btn-outline-success "> Delete </button>
-    //                         </td>
-    //                     </tr>`
-    //
-    //         tableList.append(row)
-    //     })
-    //
-    //     // tableData.DataTable({
-    //     //     order:[0, 'desc'],
-    //     //     lengthMenu:[2,10,20]
-    //     // });
-    //      new DataTable('#tableData', {
-    //         order: [0, 'desc'],
-    //         lengthMenu: [4, 10, 20]
-    //     });
-    //
-    //     $(".editBtn").on('click', function (){
-    //         let id = $(this).data('id');
-    //         alert(id)
-    //     });
-    //
-    //     $(".deleteBtn").on('click', function (){
-    //         let id = $(this).data('id');
-    //         $('#delete-modal').modal('show');
-    //         $('#deleteID').val(id);
-    //     });
-    //
-    //
-    // }
+    getList();
+
+    async function getList() {
+        showLoader();
+        let res = await axios.get('/list-event');
+        hideLoader();
+
+        let tableData = $('#tableData');
+        let tableList = $('#tableList');
+
+        tableData.DataTable().destroy();
+        tableList.empty();
+
+        res.data.forEach(function (item, index) {
+            let row = `<tr>
+                             <td>${index + 1}</td>
+                             <td>${item['category_id']}</td>
+                             <td>${item['title']}</td>
+                             <td>${item['description'].slice(0, 15)}</td>
+                             <td>${item['date']}</td>
+                             <td>${item['time']}</td>
+                             <td>${item['location']}</td>
+                             <td>
+                                <button data-id="${item['id']}" class="btn editBtn btn-sm btn-outline-primary"> Edit </button>
+                                <button data-id="${item['id']}" class="btn deleteBtn btn-sm btn-outline-success "> Delete </button>
+                            </td>
+                        </tr>`
+
+            tableList.append(row)
+        })
+
+        // tableData.DataTable({
+        //     order:[0, 'desc'],
+        //     lengthMenu:[2,10,20]
+        // });
+         new DataTable('#tableData', {
+            order: [0, 'desc'],
+            lengthMenu: [4, 10, 20]
+        });
+
+        $(".editBtn").on('click', function (){
+            let id = $(this).data('id');
+            alert(id)
+        });
+
+        $(".deleteBtn").on('click', function (){
+            let id = $(this).data('id');
+            $('#delete-modal').modal('show');
+            $('#deleteID').val(id);
+        });
+
+
+    }
 
 
 

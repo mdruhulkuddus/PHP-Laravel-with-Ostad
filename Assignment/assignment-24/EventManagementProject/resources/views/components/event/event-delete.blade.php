@@ -23,7 +23,7 @@
         let id = document.getElementById('deleteID').value;
         document.getElementById('delete-modal-close').click();
         showLoader();
-        let res = await axios.post("/delete-income", {id:id});
+        let res = await axios.post("/delete-event", {id:id});
         hideLoader();
         if(res.data === 1){
             successToast("Request Completed");

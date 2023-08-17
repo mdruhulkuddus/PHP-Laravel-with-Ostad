@@ -48,4 +48,4 @@ Route::post('/delete-event',[EventController::class,'EventDelete'])->middleware(
 Route::post('/update-event',[EventController::class,'EventUpdate'])->middleware([TokenVerifyMiddleware::class]);
 
 // Frontend Routes
-Route::get('/home', [FrontendController::class, 'HomePage']);
+Route::get('/', [FrontendController::class, 'HomePage']);
