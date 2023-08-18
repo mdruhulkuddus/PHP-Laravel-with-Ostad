@@ -1,7 +1,7 @@
-## Inventory Management System (POS Application)
+## Event Management System
 <blockquote><p>This is a simple web-based open-source Event Management System.</p></blockquote>
 
-## Features of Inventory Management System
+## Features of Event Management System
 <ul>
     <li>Login System</li>
     <li>Registration System</li>
