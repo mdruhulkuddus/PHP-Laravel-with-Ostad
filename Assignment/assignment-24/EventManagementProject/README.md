@@ -26,6 +26,18 @@
 </ul>
 
 ## ScreenShot of this project
+
+## Home Page
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="screenshots/homepage.png" alt="home-page ss">
+            </th>
+        </tr>
+    </thead>
+</table>
+
 ## Login Page
 <table>
     <thead>
