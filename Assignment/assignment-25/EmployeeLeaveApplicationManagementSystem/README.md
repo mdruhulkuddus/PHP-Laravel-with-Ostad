@@ -1,4 +1,4 @@
-## Inventory Management System (POS Application)
+## Employee Leave Application Management System
 <blockquote><p>This is a simple web-based open-source Employee Leave Application Management System.</p></blockquote>
 
 ## Features of Inventory Management System
@@ -8,6 +8,7 @@
     <li>Employee Role</li>
     <li>Manager Role</li>
     <li>Leave Application Features</li>
+    <li>Leave Tracking Features</li>
 </ul>
 
 ## Technology
