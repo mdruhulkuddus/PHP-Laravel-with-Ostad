@@ -5,6 +5,7 @@ class Ostad{
     public $companyName = "ostad Ltd\n";
     private $companyAddress = "Baridara\n";
 
+    // behaviour
     public function AddTwoNumbers(){
         echo 5+5;
     }

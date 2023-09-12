@@ -69,7 +69,7 @@ class UserController extends Controller
            return response()->json([
                'status' => 'success',
                'message' => 'User Login Successful',
-           ],200)->cookie('token',$token,60*24*30);
+           ],200)->cookie('token',$token,time()+60*24*30);
        }
        else{
            return response()->json([
@@ -151,7 +151,7 @@ class UserController extends Controller
     }
 
     function UserLogout(){
-        return redirect('/userLogin')->cookie('token','',-1);
+        return redirect('/')->cookie('token','',-1);
     }
 
 
