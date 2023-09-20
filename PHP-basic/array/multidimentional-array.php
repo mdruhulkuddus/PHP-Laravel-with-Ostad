@@ -12,3 +12,18 @@ foreach($student as $eachStudent){
         echo $eachItem . "<br>";
     }
 }
+
+$random = [
+    "hey" => true,
+    "no" => false,
+    "hmm" => "hudai",
+    "number" => [
+        "oid" => "tir",
+        "old" => 20
+    ],
+];
+
+//print_r($random);
+
+//echo $random["hey"];
+echo $random["number"]["old"];
